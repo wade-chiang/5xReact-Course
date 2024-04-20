@@ -1,0 +1,33 @@
+{
+  "name": "milkmidi-vue-example",
+  "private": true,
+  "version": "1.0.0",
+  "author": "milkmidi milkmidi@gmail.com",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.5",
+    "sass": "^1.59.3",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.2",
+    "vue-tsc": "^1.8.4"
+  }
+}

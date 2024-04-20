@@ -1,0 +1,89 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Quantity /> > should be render correct 1`] = `
+<div>
+  <section
+    data-max-value="Infinity"
+    data-name="Quantity"
+  >
+    <button
+      disabled=""
+    >
+      -
+    </button>
+    <div
+      data-testid="quantity"
+    >
+      0
+    </div>
+    <button>
+      +
+    </button>
+  </section>
+</div>
+`;
+
+exports[`<Quantity /> > should display correct quantity when props change 1`] = `
+<div>
+  <section
+    data-max-value="Infinity"
+    data-name="Quantity"
+  >
+    <button>
+      -
+    </button>
+    <div
+      data-testid="quantity"
+    >
+      10
+    </div>
+    <button>
+      +
+    </button>
+  </section>
+</div>
+`;
+
+exports[`<Quantity /> should be render correct 1`] = `
+<div>
+  <section
+    data-max-value="Infinity"
+    data-name="Quantity"
+  >
+    <button
+      disabled=""
+    >
+      -
+    </button>
+    <div
+      data-testid="quantity"
+    >
+      0
+    </div>
+    <button>
+      +
+    </button>
+  </section>
+</div>
+`;
+
+exports[`<Quantity /> should display correct quantity when props change 1`] = `
+<div>
+  <section
+    data-max-value="Infinity"
+    data-name="Quantity"
+  >
+    <button>
+      -
+    </button>
+    <div
+      data-testid="quantity"
+    >
+      10
+    </div>
+    <button>
+      +
+    </button>
+  </section>
+</div>
+`;

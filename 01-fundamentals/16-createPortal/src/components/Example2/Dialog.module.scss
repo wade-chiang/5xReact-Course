@@ -1,0 +1,16 @@
+// https://blog.lalacube.com/mei/example-html-dialog.html
+.dialog {
+  background: white;
+  color: black;
+  border-radius: 0.5em;
+  border: 0 none;
+  padding: 1rem;
+  box-shadow: 0 0 2px rgba(0,0,0,.05);
+  &::backdrop {
+    background: #232a31;
+    filter: opacity(.6);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+  }
+}
+

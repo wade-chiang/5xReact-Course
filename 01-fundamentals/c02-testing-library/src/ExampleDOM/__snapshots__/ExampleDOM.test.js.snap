@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`examples of jest-dom 1`] = `
+<div>
+  
+    
+  <input
+    data-testid="username"
+    id="username"
+  />
+  
+    
+  <button>
+    fetch Username
+  </button>
+  
+  
+  <div>
+    
+        
+    <div
+      data-testid="result"
+    >
+      milkmidi
+    </div>
+    
+      
+  </div>
+</div>
+`;

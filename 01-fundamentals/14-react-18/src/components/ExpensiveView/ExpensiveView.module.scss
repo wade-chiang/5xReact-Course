@@ -1,0 +1,29 @@
+.root {
+  position: relative;
+  width: 500px;
+  height: 450px;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  background-color:#2d3436;
+}
+.text {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 1.5rem;
+}
+.box {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.reactIcon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -25px;
+}

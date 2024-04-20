@@ -1,0 +1,43 @@
+{
+  "name": "vite-ts-react-template",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "rimraf ./dist && tsc && vite build --watch",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "redux": "^4.2.1",
+    "rimraf": "^5.0.1",
+    "sass": "^1.63.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "@vitejs/plugin-react": "^4.0.2",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.25",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.1"
+  }
+}
